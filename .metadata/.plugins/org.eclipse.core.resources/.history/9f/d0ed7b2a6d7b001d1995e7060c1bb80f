@@ -1,0 +1,55 @@
+package com.example.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Department implements Serializable{
+
+	private int Eid;
+	private String name;
+
+	public Department() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Department(int Eid, String name) {
+		super();
+		this.Eid = Eid;
+		this.name = name;
+	}
+//
+//	public int geteId() {
+//		return e_id;
+//	}
+//
+//	public void seteId(int eId) {
+//		this.e_id = eId;
+//	}
+	
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public int getE_id() {
+		return Eid;
+	}
+
+	public void setE_id(int e_id) {
+		this.Eid = e_id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Department [eId=" + eId + ", name=" + name + "]";
+	}
+
+}

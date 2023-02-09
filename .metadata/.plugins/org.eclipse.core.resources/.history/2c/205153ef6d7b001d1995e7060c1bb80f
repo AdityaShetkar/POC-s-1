@@ -1,0 +1,18 @@
+package com.example.repo;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.model.Employee;
+
+@Repository
+public interface EmloyeeRepo extends JpaRepository<Employee, Integer>{
+	
+	Optional<Employee> findByDepartmentEid(int e_id);
+
+	public Optional<Employee> findByEmpname(String empname);
+	
+	void deleteByEmpname(String empname);
+}

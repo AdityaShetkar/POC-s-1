@@ -1,0 +1,77 @@
+package com.poc.dao;
+
+import com.poc.entity.Department;
+import com.poc.entity.Employee;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateCallback;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+
+	public void addEmployee(Employee employee) {
+		hibernateTemplate.save(employee);
+	}
+
+	public List<Employee> getAllEmployee() {
+		return hibernateTemplate.loadAll(Employee.class);
+	}
+
+	public Employee getEmployeeById(int id) {
+		return hibernateTemplate.get(Employee.class, id);
+	}
+
+	public void deleteEmployee(int id) {
+		hibernateTemplate.delete(getEmployeeById(id));
+	}
+
+	@Override
+	public void updateEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		hibernateTemplate.saveOrUpdate(employee);
+
+	}
+
+	@Override
+	public void addDept(Department department) {
+		// TODO Auto-generated method stub
+		hibernateTemplate.save(department);
+	}
+
+	@Override
+	public Object criteriaByName() {
+		List results = (List) hibernateTemplate.execute(session -> {
+			Criteria criteria = session.createCriteria(Employee.class);
+			criteria.addOrder(Order.desc("name"));
+			Session
+			return criteria.list();
+		});
+		return results;
+		
+
+	}
+
+	@Override
+	public Object criteria(int id) {
+		List list = hibernateTemplate.execute(session -> {
+			Criteria criteria = session.createCriteria(Employee.class);
+			criteria.setFirstResult(1); // Page Number
+			criteria.setMaxResults(4); // Page Size
+			criteria.add(Restrictions.gt("id", id));
+			return criteria.list();
+		});
+		return list;
+	}
+
+}

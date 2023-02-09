@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33b6b2d8-0203-4554-8a57-df9a0c1d75d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/mintgenie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mintgenie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mintgenie/mintgenie/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mintgenie/mintgenie/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/Exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SprintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SprintDesignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SprintDesignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SprintExecutionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SprintExecutionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SurveyFeedbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/SurveyFeedbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamAlignmentReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamAlignmentReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamAlignmentSurvey.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamAlignmentSurvey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamDesignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamDesignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamMembershipGuestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamMembershipGuestResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamMembershipOrgResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamMembershipOrgResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamReportsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamReportsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamRoleResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/TeamRoleResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/ViewingRightsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/controller/ViewingRightsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/ActivityStakeHoldersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/ActivityStakeHoldersDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomSelectedActionDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomSelectedActionDataDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomeActionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomeActionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomeBehaviorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomeBehaviorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomeOutComeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/CustomeOutComeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/FeedBackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/FeedBackDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/JoinTeamDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/JoinTeamDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/OrgResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/OrgResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/SelectedActionDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/SelectedActionDataDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/SelectedBehaviourFeedBackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/SelectedBehaviourFeedBackDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/SelectedOutComeFeedBackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/dto/SelectedOutComeFeedBackDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/security/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/security/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/service/impl/TeamReportsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/teams-api/src/main/java/com/produgie/teams/service/impl/TeamReportsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams-api/src/main/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/teams-api" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JA9gXgtzueLgrKJWfjKD4rUo2c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33b6b2d8-0203-4554-8a57-df9a0c1d75d9" name="Changes" comment="" />
+      <created>1671510132230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671510132230</updated>
+    </task>
+    <servers />
+  </component>
+</project>
